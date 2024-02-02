@@ -1,4 +1,4 @@
-# Getting Started with Create React App: LINK :  https://loquacious-wisp-675a04.netlify.app/
+# Getting Started with Create React App: LINK :  https://techbazaar-675a04.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -73,4 +73,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-LIVE LINK : https://loquacious-wisp-675a04.netlify.app/
+LIVE LINK:  https://techbazaar-675a04.netlify.app/
