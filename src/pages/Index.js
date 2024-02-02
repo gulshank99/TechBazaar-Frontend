@@ -18,7 +18,7 @@ function Index() {
         categoryId: "string",
         coverImage: "string",
         description: "string",
-        title: "Learn Code With Durgesh",
+        title: "Tech Bazaar",
       },
       description: "string",
       discountedPrice: 5000,
@@ -28,15 +28,16 @@ function Index() {
       productImageName: "string",
       quantity: 0,
       stock: true,
-      title: "Product title",
+      title: "Real ME",
     },
+
     {
       addedDate: "2023-03-06T12:27:58.578Z",
       category: {
         categoryId: "string",
         coverImage: "string",
         description: "string",
-        title: "Learn Code With Durgesh",
+        title: "Tech Bazaar",
       },
       description: "string",
       discountedPrice: 5000,
@@ -46,15 +47,16 @@ function Index() {
       productImageName: "string",
       quantity: 0,
       stock: true,
-      title: "Product title",
+      title: "Acer",
     },
+
     {
       addedDate: "2023-03-06T12:27:58.578Z",
       category: {
         categoryId: "string",
         coverImage: "string",
         description: "string",
-        title: "Learn Code With Durgesh",
+        title: "Tech Bazaar",
       },
       description: "string",
       discountedPrice: 5000,
@@ -64,7 +66,7 @@ function Index() {
       productImageName: "string",
       quantity: 0,
       stock: true,
-      title: "Product title",
+      title: "IPhone",
     },
   ]);
 
@@ -79,17 +81,28 @@ function Index() {
       buttonType="primary"
       buttonLink="/store"
     >
-      <div className="my-4">{trendingProducts(products)}</div>
-      <div style={{ margin: "100px 0px" }}>
+      {/* <div className="my-4">{trendingProducts(products)}</div> */}
+
+      <div style={{ margin: "100px 0px"}}>
         {infoWithImageInRightSection(
-          "https://random.imagecdn.app/500/150",
+          "https://random.imagecdn.app/500/250",
           "Lorem ipsum dolor sit amet.",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi assumenda asperiores repudiandae accusamus itaque ratione veritatis, inventore sunt laboriosam."
         )}
       </div>
       <div style={{ margin: "100px 0px" }}>
         {infoWithImageInLeftSection(
-          "https://random.imagecdn.app/500/150",
+          "https://random.imagecdn.app/500/250",
+          "Lorem ipsum dolor sit amet.",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi assumenda asperiores repudiandae accusamus itaque ratione veritatis, inventore sunt laboriosam."
+        )}
+      </div>
+
+       
+
+      <div style={{ margin: "100px 0px" }}>
+        {infoWithImageInRightSection(
+          "https://random.imagecdn.app/500/250",
           "Lorem ipsum dolor sit amet.",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi assumenda asperiores repudiandae accusamus itaque ratione veritatis, inventore sunt laboriosam."
         )}
@@ -97,13 +110,7 @@ function Index() {
 
       <div className="my-4">{contactForm()}</div>
 
-      <div style={{ margin: "100px 0px" }}>
-        {infoWithImageInRightSection(
-          "https://random.imagecdn.app/500/150",
-          "Lorem ipsum dolor sit amet.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nisi assumenda asperiores repudiandae accusamus itaque ratione veritatis, inventore sunt laboriosam."
-        )}
-      </div>
+
     </Base>
   );
 }

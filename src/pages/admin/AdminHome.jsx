@@ -24,7 +24,8 @@ const AdminHome = () => {
                         <Card.Body className="text-center">
                             <h3 className="text-center">Welcome to admin Dashboard</h3>
                             <p className="text-muted">Customize dashboard for admin , to add categories, to add  products, to view categories, to view products, manage orders, manager users and much more.</p>
-                            <p>Start managing products</p>
+                            {/* <p>Start managing products</p> */}
+                            
                             <Container className="d-grid gap-3">
                                 <Button as={Link} to={'/admin/categories'} className="" variant="outline-secondary">Start Managing Categories</Button>
                                 <Button as={Link} to={'/admin/products'} className="" variant="outline-secondary">Start Managing Products</Button>
