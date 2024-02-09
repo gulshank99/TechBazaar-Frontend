@@ -22,15 +22,15 @@ const AdminHome = () => {
                     <Card className="shadow-sm">
 
                         <Card.Body className="text-center">
-                            <h3 className="text-center">Welcome to admin Dashboard</h3>
+                            <h3 className="text-center fw-bold">Welcome to admin Dashboard</h3>
                             <p className="text-muted">Customize dashboard for admin , to add categories, to add  products, to view categories, to view products, manage orders, manager users and much more.</p>
                             {/* <p>Start managing products</p> */}
                             
                             <Container className="d-grid gap-3">
-                                <Button as={Link} to={'/admin/categories'} className="" variant="outline-secondary">Start Managing Categories</Button>
-                                <Button as={Link} to={'/admin/products'} className="" variant="outline-secondary">Start Managing Products</Button>
-                                <Button as={Link} to={'/admin/users'} className="" variant="outline-secondary">Start Managing Users</Button>
-                                <Button as={Link} to={'/admin/orders'} className="" variant="outline-secondary">Start Managing Orders</Button>
+                                <Button as={Link} to={'/admin/categories'} className="fw-bold" variant="outline-dark">Start Managing Categories</Button>
+                                <Button as={Link} to={'/admin/products'} className="fw-bold" variant="outline-dark">Start Managing Products</Button>
+                                <Button as={Link} to={'/admin/users'} className="fw-bold" variant="outline-dark">Start Managing Users</Button>
+                                <Button as={Link} to={'/admin/orders'} className="fw-bold" variant="outline-dark">Start Managing Orders</Button>
                             </Container>
                         </Card.Body>
 
