@@ -1,5 +1,7 @@
 # Getting Started with Create React App: LINK :  https://techbazaar-675a04.netlify.app/
-
+ADMIN USER ID AND PASSWORD : 
+gulsh0k950400@gmail.com
+Password : abcd
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
